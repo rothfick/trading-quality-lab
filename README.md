@@ -37,7 +37,9 @@ This does **not** prove API authorization, absence of side effects after invalid
 - [Upstream baseline](quality-lab/docs/upstream-baseline.md) — what the source inspection established.
 - [ADR-001](quality-lab/docs/adr/001-independent-lab.md) — independent lab and version pinning.
 - [Iteration 01 workshop](quality-lab/docs/iterations/001-foundations.md) — explain, run, challenge and defend.
+- [Iteration 01 evidence](quality-lab/reports/001-foundations.md) — actual verification outcomes and pending work.
 - [Contribution guide](CONTRIBUTING.md) — iteration and GitHub workflow.
+- [Publication guide](quality-lab/docs/publishing.md) — authentication, branches and the prepared PR.
 
 Source structure: `harness/` contains execution tooling; `quality-lab/` contains documentation, tests, evidence summaries, and reserved experiment/AI workspaces. The ignored `openalgo/` directory holds the upstream checkout. Neither upstream code nor private recruitment material is committed here.
 
