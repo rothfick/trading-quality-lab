@@ -1,0 +1,17 @@
+/openalgo/
+/.venv/
+/.cache/
+**/__pycache__/
+/.pytest_cache/
+/.ruff_cache/
+/quality-lab/reports/generated/
+.env
+.env.*
+!.env.example
+.DS_Store
+*.png
+*.PNG
+*.jpg
+*.jpeg
+*.db
+*.sqlite*
