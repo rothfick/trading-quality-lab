@@ -1,0 +1,10 @@
+{
+  "repository": "https://github.com/marketcalls/openalgo.git",
+  "commit": "7ba5267f7d5d15c352606b3aea6b12ab20223428",
+  "checkout": "openalgo",
+  "component_sha256": {
+    "utils/__init__.py": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "restx_api/schemas.py": "8a4104a97dcb4dd0d11555a6ec757ec64d26bdf0041c39e6ee36809b691f2014",
+    "utils/constants.py": "5aa7231260a166a170b895b7bd73f3b15740318b87de7ce45bb4faf6e22cd307"
+  }
+}

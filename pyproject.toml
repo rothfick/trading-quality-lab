@@ -1,0 +1,28 @@
+[project]
+name = "trading-quality-lab"
+version = "0.1.0"
+description = "Risk-driven quality engineering portfolio against a pinned OpenAlgo revision"
+requires-python = ">=3.12,<3.13"
+dependencies = [
+    "marshmallow==3.26.2",
+    "pytest==9.1.1",
+]
+
+[dependency-groups]
+dev = ["ruff==0.15.0"]
+
+[tool.uv]
+package = false
+
+[tool.pytest.ini_options]
+testpaths = ["quality-lab/tests"]
+addopts = "-ra --strict-config --strict-markers"
+filterwarnings = ["error", "ignore:.*'missing'.*:marshmallow.warnings.RemovedInMarshmallow4Warning"]
+
+[tool.ruff]
+target-version = "py312"
+line-length = 100
+extend-exclude = ["openalgo"]
+
+[tool.ruff.lint]
+select = ["E", "F", "I", "B", "UP"]
